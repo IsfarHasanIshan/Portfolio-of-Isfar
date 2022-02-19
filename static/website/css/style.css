@@ -86,6 +86,7 @@ h1{
 
     color: rgb(110, 202, 255);
     margin: 20px 0px 20px;
+    font-weight: bold;
     font-size: 75px;
 
 }
@@ -143,8 +144,8 @@ h4{
 
 }
 .about img{
-    height: auto;
-    width: 430px;
+    height: 500px;
+    width: auto;
 
 }
 .about-text{
@@ -157,14 +158,142 @@ h4{
     width: 1130px;
     max-width: 95%;
     margin: 0 auto;
-    display: run-in;
+    display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
 .about-text h2{
 
-    color: white;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
     
+
+}
+.about-text h5{
+
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+
+}
+.about-text p{
+
+    color: rgba(175, 234, 252, 0.8);
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+
+}
+button{
+
+    background-color: rgb(0, 125, 209);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bolder;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+button:hover{
+
+    background-color: transparent;
+    border: 2px solid rgb(0, 125, 209);
+    cursor: pointer;
+
+
+}
+.contact{
+
+    width: 100%;
+    height: 290px;
+    background: #3a3737;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.contact h1{
+
+    color: rgba(175, 234, 252, 0.8);
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 10px;
+
+}
+.contact .button-two{
+
+    background-color: rgb(0, 125, 209);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+
+}
+.contact .button-two:hover{
+
+    background-color: transparent;
+    border: 2px solid rgb(0, 125, 209);
+    cursor: pointer;
+
+
+}
+footer{
+
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: #020202;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+footer h2{
+
+    font-size: 30px;
+    color:rgb(255, 255, 255);
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+footer p{
+
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+
+}
+.social{
+
+    display: flex;
+
+}
+.social a{
+
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(0, 125, 209);
+    border-radius: 50%;
+    margin: 22px 10px;
 
 }
